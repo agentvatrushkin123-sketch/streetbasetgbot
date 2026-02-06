@@ -107,7 +107,7 @@ def button_menu(message):
 @bot.message_handler(content_types=['text'])
 def cost_function(message):
     global cny, dop_price
-    cny = 14.3
+    cny = 14
 
     if message.text.strip() == '👟Обувь':
         dop_price = 1000
